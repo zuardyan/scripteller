@@ -124,7 +124,7 @@ A sample script "The Last Signal" is included in `public/sample.fountain`. Use t
 ## Project Structure
 
 ```
-movieteller/
+scripteller/
 ├── src/
 │   ├── components/
 │   │   ├── FileUpload.tsx       # Drag-and-drop file upload

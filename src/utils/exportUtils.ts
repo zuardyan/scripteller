@@ -1,6 +1,6 @@
 import jsPDF from 'jspdf';
 import { saveAs } from 'file-saver';
-import type { FountainScript, Scene, FountainElement } from './fountainParser';
+import type { FountainScript } from './fountainParser';
 
 // Export to Fountain (.fountain)
 export const exportToFountain = (script: FountainScript): void => {

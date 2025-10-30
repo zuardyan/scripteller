@@ -36,7 +36,7 @@ export class FountainParser {
   private lines: string[];
   private currentLine: number;
 
-  constructor(private content: string) {
+  constructor(content: string) {
     this.lines = content.split('\n');
     this.currentLine = 0;
   }
